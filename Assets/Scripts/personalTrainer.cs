@@ -19,26 +19,14 @@ public class personalTrainer : MonoBehaviour
         }else if (horasSemanales > 6)
         {
             Debug.Log("El máximo de horas semanales es 6");
-        }else if (tipoEntrenamiento == "Cardio" && horasSemanales== 6){
-            precio = horasSemanales * 1000 * 90 / 100;
-        }
-        else if (tipoEntrenamiento == "Cardio" && horasSemanales != 6)
-        {
+        }else if (tipoEntrenamiento == "Cardio"){
             precio = horasSemanales * 1000;
         }
-        else if (tipoEntrenamiento == "Fuerza" && horasSemanales == 6)
-        {
-            precio = horasSemanales * 1500 * 90 / 100;
-        }
-        else if (tipoEntrenamiento == "Fuerza" && horasSemanales != 6)
+        else if (tipoEntrenamiento == "Fuerza")
         {
             precio = horasSemanales * 1500;
         }
-        else if (tipoEntrenamiento == "Recreativo" && horasSemanales == 6)
-        {
-            precio = horasSemanales * 2500 * 90 / 100;
-        }
-        else if (tipoEntrenamiento == "Recreativo" && horasSemanales != 6)
+        else if (tipoEntrenamiento == "Recreativo")
         {
             precio = horasSemanales * 2500;
         }

@@ -223,8 +223,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6070fd9a18975ef48ba8936a32616e47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  horasSemanales: 5
-  tipoEntrenamiento: Cardio
+  horasSemanales: 0
+  tipoEntrenamiento: 
 --- !u!4 &2128438120
 Transform:
   m_ObjectHideFlags: 0
